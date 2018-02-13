@@ -1,0 +1,214 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <!-- <script src="https://use.fontawesome.com/d5b8d543f5.js"></script> -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon"
+</head>
+<body>
+  <!--[if lte IE 9]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <header class="section--black">
+    <div class="hero clearfix" id="home">
+      <nav>
+        <div class="nav__icon" id="hamburger">
+          <div class="nav__icon__bar"></div>
+          <div class="nav__icon__bar"></div>
+          <div class="nav__icon__bar"></div>
+        </div>
+        <div class="nav__menu" id="navMenu">
+          <button class="nav__menu__close" id="navMenuClose">x</button>
+          <div class="underline underline--cream"></div>
+          <ul class="nav__menu__ul">
+            <li class="title__h2 "><a class="title__h2--nav" href="#home">HOME</a></li>
+            <li class="title__h2"><a class="title__h2--nav" href="#about">ABOUT ME</a></li>
+            <li class="title__h2"><a class="title__h2--nav" href="#projects">PROJECTS</a></li>
+            <li class="title__h2"><a class="title__h2--nav" href="#skills">SKILLS</a></li>
+            <li class="title__h2"><a class="title__h2--nav" href="#contact">CONTACT</a></li>
+          </ul>
+          <div class="underline underline--cream"></div>
+        </div>
+      </nav>
+      <div class="hero__halfpage hero__titles">
+        <div class="hero__titles--centre">
+          <h1 class="title__h1">JULES CARNEY</h1>
+          <h2 class="title__h2 title__h2--cream title__h2--less_padding">FULL-STACK DEVELOPER</h2>
+        </div>
+      </div>
+      <div class="hero__halfpage canvas_area">
+        <div class="canvas_area__main">
+          <canvas class="canvas" id="main-layer"></canvas>
+        </div>
+        <div class="canvas_area__data">
+          <canvas class="canvas" id="data-layer"></canvas>
+        </div>
+        <div class="canvas_area__alt hidden" id="canvas_alt">
+          <img class="canvas_area__alt__img" src="img/gear_altimage.png" alt="Gear picture"/>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="section--white clearfix about" id="about">
+    <h2 class="title__h2">
+      ABOUT ME
+    </h2>
+    <div class="underline underline--cream">
+    </div>
+    <div class="about__main">
+      <div class="about__content">
+        <p class="text">
+          Hi! I'm Jules, a Toronto-based full-stack developer. I got into coding because I have an endless fascination with the art and science of writing elegant logic, and because I like building interactive projects that people really use.
+        </p>
+        <p class="text">For the past several years, I've been working as a developer in the telecommunications       industry, but am currently transitioning into web development. My strong suits:
+        </p>
+        <ul class="text">
+          <li class="text--left">I have four years of experience with JavaScript and related libraries and
+            frameworks, such as React and jQuery.
+          </li>
+          <li class="text--left">I'm a versatile coder with professional experience building software from
+            database, to server-side, to front end.
+          </li>
+          <li class="text--left">I have a diverse skill base that includes Object-oriented Programming, HTML
+            and CSS, and Geographic Information Systems.
+          </li>
+        </ul>
+        <p class="text">
+          In my life outside of code, I like to play and listen to music, read up on the latest in science, and play games.
+        </p>
+      </div>
+      <div class="about__profile">
+        <img class="about__profile__pic" src="img/face.jpg" alt="Jules Carney profile picture"/>
+      </div>
+    </div>
+  </section>
+  <section class="section--black projects" id="projects">
+    <h2 class="title__h2 title__h2--cream">
+      PROJECTS
+    </h2>
+    <div class="underline underline--white"></div>
+    <div class="sample">
+      <div class="sample__main">
+        <div class="sample__img_holder">
+          <img class="sample__img" src="img/poptask.png" alt="Poptask Sample Project"/>
+        </div>
+        <div class="sample__content">
+          <h3 class="title_h3 title__h3--white">
+            POPTASK
+          </h3>
+          <p class="sample__description text">
+            Pop Task can be used to manage daily tasks and track time with a minimum of distraction.
+          </p>
+          <p class="sample__tools text">
+            REACT - EXPRESS - MONGOOSE - MONGODB - RESPONSIVE
+          </p>
+          <button onclick="window.open('https://github.com/jecarney/pop-task-demo')" class="sample__button text">GITHUB</button>
+          <button onclick="window.open('https://pop-task-tut.herokuapp.com/')" class="sample__button text">VIEW LIVE</button>
+        </div>
+      </div>
+      <div class="underline underline--small underline--cream"></div>
+    </div>
+    <div class="sample">
+      <div class="sample__main">
+        <div class="sample__img_holder">
+          <img class="sample__img" src="img/ecospark.png" alt="Ecospark Sample Project"/>
+        </div>
+        <div class="sample__content">
+          <h3 class="title_h3 title__h3--white">
+            ECOSPARK CHANGING CURRENTS MAPS
+          </h3>
+          <p class="sample__description text">
+            Interactive map applications to illustrate relationships among land use, greenspace, and stream health.
+          </p>
+          <p class="sample__tools text">
+            JQUERY - GOOGLE MAPS API - GOOGLE DRIVE API - FUSIONTABLES API
+          </p>
+          <button onclick="window.open('https://github.com/jecarney/ecospark_map')" class="sample__button text">GITHUB</button>
+          <button onclick="window.open('http://www.ecospark.ca/changing-currents-summary-map')" class="sample__button text">VIEW LIVE</button>
+        </div>
+      </div>
+      <div class="underline underline--small underline--cream"></div>
+    </div>
+    <div class="sample">
+      <div class="sample__main">
+        <div class="sample__img_holder">
+          <img class="sample__img" src="img/mgoldman.png" alt="Marlene Goldman Portfolio Sample Project"/>
+        </div>
+        <div class="sample__content">
+          <h3 class="title_h3 title__h3--white">
+            MARLENE GOLDMAN PROFILE SITE
+          </h3>
+          <p class="sample__description text">
+            Profile site to showcase Goldman's work as a public academic and to publicize her upcoming film release.
+          </p>
+          <p class="sample__tools text">
+            WORDPRESS CUSTOMIZATION - CSS
+          </p>
+          <button onclick="window.open('')" class="sample__button text hidden">GITHUB</button>
+          <button onclick="window.open('http://marlenegoldman.ca/')" class="sample__button text">VIEW LIVE</button>
+        </div>
+      </div>
+      <div class="underline underline--small underline--cream"></div>
+    </div>
+  </section>
+  <section class="section--white" id="skills" >
+    <h2 class="title__h2">SKILLS
+    </h2>
+    <div class="underline underline--cream"></div>
+    <!--http://konpa.github.io/devicon/-->
+    <div class="skills">
+      <div class="skills__box">
+        <i class="devicon-javascript-plain skills__icon"></i>
+        <h4 class="skills__title">JavaScript</h4>
+      </div>
+      <div class="skills__box">
+        <i class="devicon-react-original skills__icon"></i>
+        <h4 class="skills__title">React</h4>
+      </div>
+      <div class="skills__box">
+        <i class="devicon-html5-plain skills__icon"></i>
+        <h4 class="skills__title">HTML5</h4>
+      </div>
+      <div class="skills__box">
+        <i class="devicon-css3-plain skills__icon"></i>
+        <h4 class="skills__title">CSS3</h4>
+      </div>
+      <div class="skills__box">
+        <i class="devicon-jquery-plain-wordmark skills__icon"></i>
+        <h4 class="skills__title">jQuery</h4>
+      </div>
+      <div class="skills__box">
+        <i class="devicon-dot-net-plain skills__icon"></i>
+        <h4 class="skills__title">.NET</h4>
+      </div>
+    </div>
+  </section>
+  <section class="section--black" id="contact">
+    <h2 class="title__h2 title__h2--cream">CONTACT</h2>
+    <div class="underline underline--white"></div>
+    <h3 class="title_h3 title__h3--white title__h3--light">
+      hello@julescarney.com
+    </h3>
+    <p class="text text--cream">
+      © 2017 Jules Carney
+    </p>
+    <img onclick="window.open('https://www.linkedin.com/in/jecarney/')" class="contact__linkedin_icon" src="img/linkedin.png" alt="Jules Carney linkedin icon"/>
+    <div class="text text--grey text--tiny">Icons made by <a class="text--grey" href="http://www.freepik.com" title="Freepik">Freepik</a>, and <a class="text--grey" href="https://www.flaticon.com/authors/egor-rumyantsev" title="Egor Rumyantsev">Egor Rumyantsev</a> and <a class="text--grey" href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a class="text--grey" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  </section>
+  <script data-main="js/main" src="js/vendor/require.js"></script>
+</body>
+</html>
